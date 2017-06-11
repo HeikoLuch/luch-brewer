@@ -2,11 +2,11 @@
 /**
  * Muss nach der Initialisierung von Ethernet aufgerufen werden!
  */
-#include "Arduino.h"
-#include "bm_global.h"
+#include <Arduino.h>
 #include <OneWire.h>
 #include <DallasTemperature.h>
-#include <bm_temp.h>
+#include "bm_global.h"
+#include "bm_temp.h"
 
 
 // -------------------------------

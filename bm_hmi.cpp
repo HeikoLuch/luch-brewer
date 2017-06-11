@@ -1,11 +1,11 @@
 /**
  * Muss nach der Initialisierung von Ethernet aufgerufen werden!
  */
-#include "Arduino.h"
-#include <bm_hmi.h>
+#include <Arduino.h>
 #include <LiquidCrystal.h>
-#include <bm_global.h>
-#include <NTP-Clock.h>
+#include "bm_hmi.h"
+#include "bm_global.h"
+#include "NTP-Clock.h"
 
 
 // ---------- Rotary ---------------

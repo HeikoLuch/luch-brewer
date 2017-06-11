@@ -2,8 +2,8 @@
 /**
  * Relais Control
  */
-#include "Arduino.h"
-#include <bm_diag.h>
+#include <Arduino.h>
+#include "bm_diag.h"
 
 void BM_Diag::log(const __FlashStringHelper*  prefix, const __FlashStringHelper* loc, String msg) {
 	Serial.print (prefix);

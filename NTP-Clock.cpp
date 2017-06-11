@@ -1,9 +1,9 @@
 /**
  * Muss nach der Initialisierung von Ethernet aufgerufen werden!
  */
-#include "Arduino.h"
-#include "NTP-Clock.h"
+#include <Arduino.h>
 #include <UIPUdp.h>
+#include "NTP-Clock.h"
 
 //#define DEBUG_NTP
 
